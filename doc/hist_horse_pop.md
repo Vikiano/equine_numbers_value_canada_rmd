@@ -26,9 +26,10 @@ two sources were used:
 
 ## Methods
 
-The R programming language and the following R packages were used to
-perform the analysis: knitr and tidyverse. The code used to perform the
-analysis and create this report can be found here:
+The R programming language \[@R\] and the following R packages were used
+to perform the analysis: knitr \[@knitr\] and tidyverse \[@tidyverse\].
+The code used to perform the analysis and create this report can be
+found here:
 <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
 
 ## Results

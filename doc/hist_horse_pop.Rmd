@@ -40,7 +40,7 @@ The R programming language [\@R] and the following R packages were used to perfo
 
 ## Results
 
-```{r plot horses, fig.width=10, fig.height=3}
+```{r plot horses, fig.width=10, fig.height=3, fig.cap="Horse populations for all provinces in Canada between 1940 - 1972."}
 horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   geom_point() +
   geom_line() +
