@@ -5,6 +5,7 @@ Historical horse population in Canada
 -   [Data](#data)
 -   [Methods](#methods)
 -   [Results](#results)
+-   [References](#references)
 
 ## Aim
 
@@ -61,3 +62,33 @@ time point between 1940 - 1972:
 Below we zoom in and look at the province of Alberta:
 
 ![](hist_horse_pop_files/figure-gfm/plot%20province-1.png)<!-- -->
+
+# References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-R" class="csl-entry">
+
+R Core Team. 2019. *R: A Language and Environment for Statistical
+Computing*. Vienna, Austria: R Foundation for Statistical Computing.
+<https://www.R-project.org/>.
+
+</div>
+
+<div id="ref-tidyverse" class="csl-entry">
+
+Wickham, Hadley. 2017. *Tidyverse: Easily Install and Load the
+’Tidyverse’*. <https://CRAN.R-project.org/package=tidyverse>.
+
+</div>
+
+<div id="ref-knitr" class="csl-entry">
+
+Xie, Yihui. 2014. “Knitr: A Comprehensive Tool for Reproducible Research
+in R.” In *Implementing Reproducible Computational Research*, edited by
+Victoria Stodden, Friedrich Leisch, and Roger D. Peng. Chapman;
+Hall/CRC. <http://www.crcpress.com/product/isbn/9781466561595>.
+
+</div>
+
+</div>
