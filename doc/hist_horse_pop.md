@@ -26,16 +26,15 @@ two sources were used:
 
 ## Methods
 
-The R programming language \[@R\] and the following R packages were used
-to perform the analysis: knitr \[@knitr\] and tidyverse \[@tidyverse\].
-The code used to perform the analysis and create this report can be
-found here:
+The R programming language (R Core Team 2019) and the following R
+packages were used to perform the analysis: knitr (Xie 2014) and
+tidyverse (Wickham 2017). The code used to perform the analysis and
+create this report can be found here:
 <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
 
 ## Results
 
-![Horse populations for all provinces in Canada between 1940 -
-1972.](hist_horse_pop_files/figure-gfm/plot%20horses-1.png)
+<img src="hist_horse_pop_files/figure-gfm/plot horses-1.png" title="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972." alt="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972." width="100%" />
 
 We can see from the visualisation above that Ontario, Saskatchewan and
 Alberta have had the highest horse populations in Canada. All provinces

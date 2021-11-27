@@ -3,7 +3,10 @@ title: "Historical horse population in Canada"
 bibliography: horse_refs.bib
 params:
   province: "Alberta"
+always_allow_html: true
 output: 
+  html_document:
+    toc: true
   github_document:
     toc: true
 nocite: '@*'
@@ -36,11 +39,11 @@ Horse population data were sourced from the [Government of Canada's Open Data we
 
 ## Methods
 
-The R programming language [\@R] and the following R packages were used to perform the analysis: knitr [\@knitr] and tidyverse [\@tidyverse]. The code used to perform the analysis and create this report can be found here: <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
+The R programming language [@R] and the following R packages were used to perform the analysis: knitr [@knitr] and tidyverse [@tidyverse]. The code used to perform the analysis and create this report can be found here: <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
 
 ## Results
 
-```{r plot horses, fig.width=10, fig.height=3, fig.cap="Horse populations for all provinces in Canada between 1940 - 1972."}
+```{r plot horses, fig.width=10, fig.height=3, fig.cap = "Figure 1. Horse populations for all provinces in Canada between 1940 - 1972.", out.width="100%"}
 horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   geom_point() +
   geom_line() +
@@ -68,9 +71,9 @@ kable(max_horses,
       caption = "Table 1. Maximum and minimum number of horses for each province between 1940 - 1972")
 ```
 
-Below we zoom in and look at the province of Alberta:
+Below we zoom in and look at the province of `r params$province`:
 
-```{r plot province, fig.width=5, fig.height=4}
+```{r plot province, fig.width=5, fig.height=4,fig.cap = "Figure 2. Horse populations for province of focus", out.width="100%"} 
 province_plot <- horse_pop %>% 
   filter(GEO == "Alberta") %>% 
   ggplot(aes(x = Ref_Date, y = Value)) +
